@@ -1,0 +1,90 @@
+/*Внешний вид общий*/
+.menu {
+    list-style-type: none;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 5px;
+    margin-bottom: 0px;
+}
+
+.menu li a {
+    color: black;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+/* Внешний вид contact.html*/
+
+.conlink {
+    color: black;
+    text-transform: uppercase;
+}
+
+input {
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    font-size: 24px;
+    color: cyan;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+}
+/* Внешний вид Index.html*/
+.ShopPhoto {
+    display: block;
+    margin: 10px auto 10px;
+}
+
+#CpRight {
+    text-align: center;
+    font-size: 12px;
+}
+
+.headName {
+    text-align: center;
+    font-size: 36px;
+}
+.shopDesc {
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Внешний вид товаров */
+
+.heading {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+
+}
+
+img[alt="ноутбук InfinityEdge M15"] {
+    display: block;
+    margin: 10px auto 10px;
+}
+
+.productDesc {
+    text-align: center;
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.productName {
+    text-align: center;
+}
+
+.stats  {
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 16px;
+    list-style-type: lower-greek;
+}
