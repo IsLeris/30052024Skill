@@ -31,7 +31,8 @@ body {
     background-color: brown;
 }
 
-input, textarea{
+input,
+textarea {
     box-sizing: border-box;
     width: 300px;
     height: 50px;
@@ -39,7 +40,8 @@ input, textarea{
     color: black;
 }
 
-input, textarea:enabled{
+input,
+textarea:enabled {
     text-transform: capitalize;
 }
 
@@ -68,6 +70,7 @@ input, textarea:enabled{
     text-align: center;
     font-size: 36px;
 }
+
 .shopDesc {
     font-size: 25px;
     text-align: center;
@@ -105,7 +108,7 @@ img[alt="ноутбук InfinityEdge M15"] {
     text-align: center;
 }
 
-.stats  {
+.stats {
     text-decoration: underline;
     font-weight: bolder;
     font-size: 16px;
@@ -121,12 +124,13 @@ img[alt="ноутбук InfinityEdge M15"] {
 .productTable td {
     border: 1px solid #000;
 }
+
 .productTable tr {
     height: 100px;
     width: 100px;
 }
 
-.footer p::first-letter {
-    color: black;
-    size: 14px;
+.productfooter {
+    display: flex;
+    justify-content: center;
 }
