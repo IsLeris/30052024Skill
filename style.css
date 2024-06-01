@@ -11,6 +11,10 @@
     color: black;
 }
 
+.menu li a:hover {
+    color: red;
+}
+
 body {
     background-color: #f8f8f8;
 }
@@ -22,19 +26,33 @@ body {
     text-transform: uppercase;
 }
 
-input {
+.Email:focus {
+    color: red;
+    background-color: brown;
+}
+
+input, textarea{
     box-sizing: border-box;
     width: 300px;
     height: 50px;
     font-size: 24px;
-    color: cyan;
+    color: black;
 }
 
-textarea {
-    box-sizing: border-box;
-    width: 300px;
-    height: 50px;
+input, textarea:enabled{
+    text-transform: capitalize;
 }
+
+/* Внешний вид Каталога*/
+
+.catalogIMG {
+    outline: 3px solid red;
+}
+
+.catalogIMG:hover {
+    outline: none;
+}
+
 /* Внешний вид Index.html*/
 .ShopPhoto {
     display: block;
@@ -70,6 +88,11 @@ img[alt="ноутбук InfinityEdge M15"] {
     margin: 10px auto 10px;
 }
 
+.Product p::first-letter {
+    color: red;
+    font-size: 20px;
+}
+
 .productDesc {
     text-align: center;
     color: #707070;
@@ -87,4 +110,23 @@ img[alt="ноутбук InfinityEdge M15"] {
     font-weight: bolder;
     font-size: 16px;
     list-style-type: lower-greek;
+}
+
+.productTable {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.productTable td {
+    border: 1px solid #000;
+}
+.productTable tr {
+    height: 100px;
+    width: 100px;
+}
+
+.footer p::first-letter {
+    color: black;
+    size: 14px;
 }
